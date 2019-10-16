@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/screens/categoryMealsScreen.dart';
 import 'package:flutter_complete_guide/screens/mealDetailScreen.dart';
 
-import "./screens/categoriesScreen.dart";
 import "./screens/categoryMealsScreen.dart";
 import "./screens/mealDetailScreen.dart";
 import "./screens/tabsScreen.dart";
