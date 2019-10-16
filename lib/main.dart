@@ -5,6 +5,7 @@ import 'package:flutter_complete_guide/screens/mealDetailScreen.dart';
 import "./screens/categoriesScreen.dart";
 import "./screens/categoryMealsScreen.dart";
 import "./screens/mealDetailScreen.dart";
+import "./screens/tabsScreen.dart";
 
 void main() => runApp(MyApp());
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
                 fontFamily: "RobotoCondensed")),
       ),
       routes: {
-        "/": (ctx) => CategoriesScreen(),
+        "/": (ctx) => TabsScreen(),
         "/meal-category": (ctx) => CategoryMealsScreen(),
         "/meal-details": (ctx) => MealDetailScreen()
       },
